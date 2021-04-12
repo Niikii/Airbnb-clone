@@ -9,13 +9,13 @@ import { Button, IconButton } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 const Header = () => {
-  const useStyles = makeStyles((theme) => ({
-    accountButton: {
-      borderRadius: "50px",
-    },
-  }));
+//   const useStyles = makeStyles((theme) => ({
+//     accountButton: {
+//       borderRadius: "50px",
+//     },
+//   }));
 
-  const classes = useStyles();
+//   const classes = useStyles();
 
   return (
     <div className="header">
