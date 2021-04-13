@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Header.css";
-import img from "../styles/logo.png";
+import img from "../styles/images/logo.png";
 import SearchIcon from "@material-ui/icons/Search";
 import LanguageIcon from "@material-ui/icons/Language";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
@@ -9,13 +9,13 @@ import { Button, IconButton } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
 
 const Header = () => {
-//   const useStyles = makeStyles((theme) => ({
-//     accountButton: {
-//       borderRadius: "50px",
-//     },
-//   }));
+  //   const useStyles = makeStyles((theme) => ({
+  //     accountButton: {
+  //       borderRadius: "50px",
+  //     },
+  //   }));
 
-//   const classes = useStyles();
+  //   const classes = useStyles();
 
   return (
     <div className="header">
