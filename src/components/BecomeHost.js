@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/BecomeHost.css";
-import {Button} from '@material-ui/core'
+import { Button } from "@material-ui/core";
 
 const BecomeHost = () => {
   return (
@@ -16,7 +16,6 @@ const BecomeHost = () => {
         </h3>
         <Button className="button">Learn more</Button>
       </div>
-      <h1>balbalba</h1>
     </div>
   );
 };
