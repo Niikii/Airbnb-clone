@@ -9,19 +9,4 @@
   justify-content: space-around;
   align-items: center;
   margin: 0 70px 0 70px;
-
-}
-
-.cards {
-  border-radius: 10px !important;
-  height: 310px !important;
-  width: 310px !important;
-}
-
-.card-imgs {
-  border-radius: 10px !important;
-}
-
-.card-text {
-  padding-left: 0 !important;
 }
