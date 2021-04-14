@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap");
+.discover {
+  margin-top: 70px;
+}
+
+.title {
+  padding-left: 90px;
+  font-family: "Poppins", sans-serif;
+  line-height: 10px;
+}
+
+.subTitle {
+  padding-left: 90px;
+  font-family: "Poppins", sans-serif;
+}
+
+.discover-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 70px 0 70px;
+}
+
+.cards {
+  border-radius: 10px !important;
+  height: 440px !important;
+  width: 440px !important;
+}
+
+.card-imgs {
+  border-radius: 10px !important;
+}
+
+.card-text {
+  padding-left: 0 !important;
+}
