@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "img": "https://a0.muscache.com/im/pictures/be4d3ba5-08d7-4afe-95a7-f2da6453886a.jpg",
+    "town": "cape Town",
+    "distance": "6 hour drive"
+  },
+  {
+    "id": 2,
+    "img": "https://a0.muscache.com/im/pictures/7253e011-7c22-48fd-b75d-d0da35372397.jpg",
+    "town": "Goerge",
+    "distance": "45 minute drive"
+  },
+  {
+    "id": 3,
+    "img": "https://a0.muscache.com/im/pictures/52e8083e-2de2-446d-a860-534eab250541.jpg",
+    "town": "Plettenberg Bay",
+    "distance": "1 hour drive"
+  },
+  {
+    "id": 4,
+    "img": "https://a0.muscache.com/im/pictures/20e74de0-0eb8-4fca-afb8-b111875acdf5.jpg",
+    "town": "Saldanha",
+    "distance": "7.5 hour drive"
+  },
+  {
+    "id": 5,
+    "img": "https://a0.muscache.com/im/pictures/e639b7ab-aee3-48ee-9743-216684a51319.jpg",
+    "town": "Swellendam",
+    "distance": "3.5 hour drive"
+  },
+  {
+    "id": 6,
+    "img": "https://a0.muscache.com/im/pictures/3d541658-fb05-4316-af26-b8c1337fbe8c.jpg",
+    "town": "Port Alfred",
+    "distance": "6 hour drive"
+  },
+  {
+    "id": 7,
+    "img": "https://a0.muscache.com/im/pictures/ca3737ef-0faf-46ba-b055-b4a2d99e2cea.jpg",
+    "town": "Mossel Bay",
+    "distance": "1.5 hour drive"
+  },
+  {
+    "id": 8,
+    "img": "https://a0.muscache.com/im/pictures/585d1e53-e2e1-4baf-a34e-36301dd1e2da.jpg",
+    "town": "Grebouw",
+    "distance": "5 hour drive"
+  }
+]
