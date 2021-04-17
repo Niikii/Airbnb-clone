@@ -5,6 +5,7 @@ import LiveAnywhere from "../components/LiveAnywhere";
 import BecomeHost from "../components/BecomeHost";
 import Discover from "../components/Discover";
 import ExploreNearby from "../components/ExploreNearby";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <LiveAnywhere />
       <BecomeHost />
       <Discover />
+      <Footer size="small" />
     </div>
   );
 };
