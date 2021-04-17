@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import discoverData from "../data/discover.json";
+import { makeStyles } from "@material-ui/core/styles";
 import {
   CardActionArea,
   CardContent,
@@ -8,12 +9,23 @@ import {
 } from "@material-ui/core";
 import "../styles/Discover.css";
 
+const useStyles = makeStyles({
+  content: {
+    display: "flex",
+    alignItems: "flex-start",
+    flexDirection: "column",
+  },
+});
+
 const Discover = () => {
   const [data, setData] = useState(discoverData);
+  const classes = useStyles();
   return (
     <div className="discover">
-      <h1 className="title">Discover Experiences</h1>
-      <h3 className="subTitle">Unique activities with local experts—in person or online.</h3>
+      <h1 className="discover-title">Discover Experiences</h1>
+      <h3 className="subTitle">
+        Unique activities with local experts—in person or online.
+      </h3>
       <div className="discover-section">
         {data.map((item) => (
           <CardActionArea className="cards">
@@ -23,7 +35,7 @@ const Discover = () => {
               image={item.img}
               title={item.title}
             />
-            <CardContent>
+            <CardContent className={classes.content}>
               <Typography
                 className="card-text"
                 gutterBottom
@@ -32,7 +44,12 @@ const Discover = () => {
               >
                 {item.title}
               </Typography>
-              <Typography variant="body2" color="textSecondary" component="p">
+              <Typography
+                variant="body2"
+                gutterBottom
+                color="textSecondary"
+                component="p"
+              >
                 {item.info}
               </Typography>
             </CardContent>

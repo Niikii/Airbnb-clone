@@ -1,12 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap");
 
-.title {
-  padding-left: 90px;
+.live-anywhere {
+  margin-top: 70px;
+}
+
+.liveAnywhere-title {
+  padding-left: 70px;
   font-family: "Poppins", sans-serif;
 }
 .card-section {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   margin: 0 70px 0 70px;
 }

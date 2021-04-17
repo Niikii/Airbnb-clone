@@ -31,7 +31,7 @@ const LiveAnywhere = () => {
 
   return (
     <div className="live-anywhere">
-      <h1 className="title">Live anywhere</h1>
+      <h1 className="liveAnywhere-title">Live anywhere</h1>
       <div className="card-section">
         {data.map((item) => (
           <Card className={classes.root}>

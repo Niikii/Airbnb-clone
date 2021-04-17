@@ -1,17 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap");
 * {
   box-sizing: content-box;
 }
 
-/* .explore-cards {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap:wrap;
-  margin: 0 70px 0 70px;
-} */
-
-.explore{
+.explore {
   margin-top: 70px;
+}
+
+.explore-title {
+  padding-left: 70px;
+  font-family: "Poppins", sans-serif;
+  line-height: 10px;
 }
 
 .explore-cards {
@@ -20,4 +19,3 @@
   justify-content: space-around;
   margin: 0 70px 0 70px;
 }
-

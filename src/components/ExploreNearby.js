@@ -20,7 +20,6 @@ const useStyles = makeStyles({
     alignItems: "center",
     borderRadius: "7px",
     flex: "1 0 21%",
-    margin: "5px",
     height: "100px",
   },
   media: {
@@ -51,7 +50,7 @@ const ExploreNearby = () => {
   const [data, setData] = useState(exploreData);
   return (
     <div className="explore">
-      <h1 className="title">Explore nearby</h1>
+      <h1 className="explore-title">Explore nearby</h1>
       <div className="explore-cards">
         {data.map((item) => (
           <Card className={classes.root}>
