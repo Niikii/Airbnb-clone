@@ -1,6 +1,6 @@
 # Airbnb Clone
 
-Airbnb landing page using:\\
+Airbnb landing page using:\
 React.js\
 Material UI
 
