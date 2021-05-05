@@ -25,7 +25,7 @@ const useStyles = makeStyles({
   },
 });
 
-const LiveAnywhere = () => {
+const LiveAnywhere = (props) => {
   const [data, setData] = useState(cardData);
   const classes = useStyles();
 
