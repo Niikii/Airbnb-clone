@@ -53,7 +53,7 @@ const ExploreNearby = () => {
       <h1 className="explore-title">Explore nearby</h1>
       <div className="explore-cards">
         {data.map((item) => (
-          <Card className={classes.root}>
+          <Card key={item.id} className={classes.root}>
             <CardMedia className={classes.media} image={item.img} />
             <CardContent className={classes.content}>
               <Typography className={classes.text} gutterBottom variant="h6">
@@ -65,17 +65,6 @@ const ExploreNearby = () => {
             </CardContent>
           </Card>
         ))}
-      </div>
-
-      <div class="parent">
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
-        <div class="child"></div>
       </div>
     </div>
   );

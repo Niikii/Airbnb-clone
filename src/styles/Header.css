@@ -27,6 +27,7 @@
   height: 25px;
   border: 1px solid lightgray;
   border-radius: 999px;
+  
 }
 
 .header-center > input {
@@ -42,4 +43,5 @@
   justify-content: space-between;
   width: 15vw;
   margin-right: 50px;
+  flex-wrap: wrap;
 }
